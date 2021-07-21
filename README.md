@@ -25,6 +25,10 @@ TDS 센서를 이용한 수질 측정 시스템 💧
 * Arduino uno
 * TDS sensor
 
+🔍 TDS sensor
+-------------
+* Gravity: TDS/Meter Sensor for Arduino [SEN0244]
+* https://www.devicemart.co.kr/goods/view?no=1361472
 
 
 
