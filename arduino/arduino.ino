@@ -1,7 +1,3 @@
-#include <SoftwareSerial.h>
-
-SoftwareSerial mySerial(2,3);
-
 #define TdsSensorPin A1
 #define VREF 5.0      // analog reference voltage(Volt) of the ADC
 #define SCOUNT  30           // sum of sample point
@@ -60,18 +56,15 @@ void tds()
       //Serial.print("voltage:");
       //Serial.print(averageVoltage,2);
       //Serial.print("V   ");
-      Serial.print("TDS Value:");
-      Serial.print(tdsValue,0);
-      Serial.println("ppm");
+//      Serial.print("TDS Value:");.
+      Serial.println(tdsValue,0);
+//      Serial.println("ppm");
    }
 }
 
 void setup()
 {
   Serial.begin(9600);
-  mySerial.begin(9600);
-  
-  Serial.println("UART start.");
   
   pinMode(TdsSensorPin,INPUT);
   
@@ -79,16 +72,7 @@ void setup()
 
 void loop()
 {
-   if(mySerial.available())
-   {
-     Serial.write(mySerial.read());
-   }
-   
-   if(Serial.available())
-   {
-     mySerial.write(Serial.read());
-   }
-   
+
    tds();
   
   
