@@ -28,7 +28,21 @@ TDS 센서를 이용한 수질 측정 시스템 💧
 🔍 사용 센서
 -------------
 ![1](/images/1.jpg)
-* Gravity: TDS/Meter Sensor for Arduino [SEN0244]
+* **Gravity: TDS/Meter Sensor for Arduino [SEN0244]**
+* Wide Voltage Input: 3.3~5.5V
+* Good Compatibility Output: 0~2.3V analog signal output, compatible with 5V or 3.3V controller
+* AC Excitation Source: effectively prevent probe from polarization
+* Waterproof Probe
+* Easy to Use: Arduino compatible, simple connection, plug and play without soldering
+* Signal Transmitter Board
+* Input Voltage: 3.3 ~ 5.5V
+* Output Voltage: 0 ~ 2.3V
+* Working Current: 3 ~ 6mA
+* TDS Measurement Range: 0 ~ 1000ppm
+* TDS Measurement Accuracy: ± 10% F.S. (25 ℃)
+* Module Size: 42 * 32mm
+* Module Interface: PH2.0-3P
+* Electrode Interface: XH2.54-2P
 * https://www.devicemart.co.kr/goods/view?no=1361472
 
 
